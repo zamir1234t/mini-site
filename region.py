@@ -86,7 +86,7 @@ class SettingsPage(tk.Frame):
         tk.Button(self, text="Сохранить",
                   command=lambda: master.show_page(HomePage)).pack(pady=10)
 
-        tk.Button(self, text="Выход",
+        tk.Button(self, text="Выхо",
                   command=master.destroy).pack(pady=10)
 
 class logerUser(tk.Frame):
